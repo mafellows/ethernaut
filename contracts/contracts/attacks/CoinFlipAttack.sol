@@ -1,9 +1,7 @@
 // SPDX-License-Identifier: MIT
-
-pragma solidity ^0.6.0;
+pragma solidity >=0.6.0;
 
 import '../levels/CoinFlip.sol';
-import '@openzeppelin/contracts/math/SafeMath.sol';
 
 contract CoinFlipAttack {
 
@@ -17,5 +15,11 @@ contract CoinFlipAttack {
     bool side = coinFlip == 1 ? true : false;
     coinflip.flip(side);
     return side;
+  }
+}
+
+contract HelloWorld {
+  function speak() {
+    return "Hello";
   }
 }

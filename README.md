@@ -93,6 +93,4 @@ Contributions and corrections are always welcome!
 
 Please follow the [Contributor's Guide](./CONTRIBUTING.md) if you would like to help out.
 
-Test: 0011
-
-hello retti
+Test: 0012
